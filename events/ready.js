@@ -8,7 +8,7 @@ module.exports = {
 		console.log(`Ready! Logged in as ${client.user.tag}`);
 		client.user.setStatus('idle');
 		
-		client.user.setActivity('Titanium', { type: ActivityType.Watching });
+		client.user.setActivity('Project', { type: ActivityType.Watching });
 		
 	},
 };
